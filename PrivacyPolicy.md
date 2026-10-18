@@ -13,7 +13,8 @@ ADVERTISING (GOOGLE ADMOB)
 House Rules shows ads through Google AdMob (a banner, and optional videos
 you can choose to watch for more hints). To serve and measure ads, Google
 may collect and process:
-- Device identifiers (the Advertising Identifier, IDFA, only if you allow it)
+- Device identifiers (not the Advertising Identifier, IDFA: the app never
+  asks for it, so iOS doesn't give it out)
 - Coarse location (derived from your IP address)
 - Usage data (product interaction, advertising data)
 - Diagnostics (crash and performance data)
